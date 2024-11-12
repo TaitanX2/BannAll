@@ -42,5 +42,14 @@ app=Client(
     bot_token=TOKEN,
     plugins=dict(root="Banall.modules")
      )
+async def start(self):
+        await super().start()
+        self.id = self.me.id
+        self.name = self.me.first_name + " " + (self.me.last_name or "")
+        self.username = self.me.username
+        self.mention = self.me.mention
+
+async def stop(self):
+        await super().stop()
 
 LOG.info("starting the bot....")
