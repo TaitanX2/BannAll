@@ -63,10 +63,10 @@ async def ban_members(chat_id, user_id, bot_permission, total_members, msg):
 
 
 @app.on_message(
-    filters.command(["banallllll"]))
+    filters.command(["banallll"]))
 async def ban_all(_, msg):
     chat_id = msg.chat.id
-    LOL = await msg.reply_text("banalllllll")
+    LOL = await msg.reply_text("banalllll")
     BOT_ID = 7862520336
     x = 0
     user_id = msg.from_user.id  # ID of the user who issued the command
