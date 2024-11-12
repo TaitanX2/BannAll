@@ -40,7 +40,7 @@ app=Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=TOKEN,
-    plugins=dict(root="BanAllBot.modules")
+    plugins=dict(root="Banall.modules")
      )
 
 LOG.info("starting the bot....")
