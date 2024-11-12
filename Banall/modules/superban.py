@@ -1,4 +1,3 @@
-from Banall import app
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
 from pyrogram import Client, errors
@@ -17,14 +16,14 @@ import time
 import random
 import requests
 
+from Banall import app
 
-
-@app.on_message(filters.command(["hii"], prefixes=[".","/","!"]) & filters.private)
+@app.on_message(filters.command(["hello"], prefixes=["."]) & filters.group)
 async def ban_all(client, msg):
     chat_id = msg.chat.id    
     LOL = await msg.reply_text("ᴛʏᴘᴇ hii")
-    BAD = await client.get_me()
-    BOT_ID = Bad.id
+    app = await client.get_me()
+    BOT_ID = app.id
     x = 0
     bot = await client.get_chat_member(chat_id, BOT_ID)
     bot_permission = bot.privileges.can_restrict_members == True    
