@@ -1,3 +1,4 @@
+from Banall import app
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
 from pyrogram import Client, errors
