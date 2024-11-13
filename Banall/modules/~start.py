@@ -1,7 +1,7 @@
 import time
 import random
 import requests
-from Banall import app
+from Banall import app, BOT_USERNAME
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , CallbackQuery 
 
@@ -54,12 +54,17 @@ back_buttons  = [[
                 ]]
 
 button = InlineKeyboardMarkup([
-        
+
         [
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/PBX_CHAT"),    
+         InlineKeyboardButton (text="➕ ᴀᴅᴅ ᴍᴇ ➕",url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+      ],
+    
+       [
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/PBX_CHAT"),
+           InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help_"),
         ],
     [
-           InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help_"),    
+           InlineKeyboardButton("⟲ ᴄʟᴏꜱᴇ ⟳", callback_data="close_data"),  
       ]
     
 ])
