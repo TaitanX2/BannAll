@@ -82,11 +82,16 @@ async def cb_handler(client, query):
     if query.data=="home_":
         buttons =  [
             [
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ll_THE_BAD_BOT_ll"),    
+         InlineKeyboardButton (text="➕ ᴀᴅᴅ ᴍᴇ ➕",url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+      ],
+    
+       [
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/PBX_CHAT"),
+           InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help_"),
         ],
-            [
-                InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_")
-            ]    
+    [
+           InlineKeyboardButton("⟲ ᴄʟᴏꜱᴇ ⟳", callback_data="close_data"),  
+    ]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         try:
