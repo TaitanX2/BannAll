@@ -29,7 +29,7 @@ killall_txt = """
 app_buttons = [
 
                 [ 
-                    InlineKeyboardButton("ᴀɪ", callback_data="banall_"),
+                    InlineKeyboardButton("ʜᴇʟᴘ", callback_data="banall_"),
         
                 ],
                 [
