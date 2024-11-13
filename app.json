@@ -1,0 +1,64 @@
+{
+      "name": "sᴜᴘᴇʀ ʙᴀɴᴀʟʟ ʙᴏᴛ",
+      "description": "advance banall bot",
+      "logo": "",
+      "keywords": [
+         "ban all bot",
+         "bot",
+         "Group",
+         "Telegram"         
+      ],   
+   "repository": "https://github.com/Badhacker98/Banall",
+   "stack": "heroku-20",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "TOKEN": {
+         "description": "Your bot token. Can be obtained from https://telegram.dog/BotFather/",
+         "required": true,
+         "value": "YOUR BOT_TOKEN"
+      },
+      "API_ID": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },     
+      "BOT_ID": {
+         "description": "your bot id",
+         "required": true,
+         "value": ""
+      },  
+      "BOT_USERNAME": {
+         "description": "your bot username without @",
+         "required": true,
+         "value": ""
+      },  
+       "BOT_NAME": {
+         "description": "Your bot's name",
+         "required": true,
+         "value": ""
+      },      
+      "SUDO": {
+         "description": "list of Auth user Id who can command the bot ",
+         "required": true,
+         "value": ""
+      }
+},
+   "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "eco"
+            }
+        }
+}
