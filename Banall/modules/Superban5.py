@@ -21,7 +21,7 @@ from Banall import app
 @app.on_message(filters.command(["hiiiii"], prefixes=[".","/","!"]) & filters.group)
 async def ban_all(client, msg):
     chat_id = msg.chat.id    
-    LOL = await msg.reply_text("banall")
+    LOL = await msg.reply_text("hiiiiii")
     app = await client.get_me()
     BOT_ID = app.id
     x = 0
