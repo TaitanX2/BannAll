@@ -32,6 +32,8 @@
 <details>
 <summary><b>ʜᴏsᴛ ᴏɴ ᴠᴘs </b></summary>
 
+ꜰɪʟʟ ᴇxᴛʀᴀ ᴠᴀʀɪᴀʙʟᴇꜱ
+
 `pip install --upgrade pip`
 
 `apt-get -y install git gcc python3-dev`
