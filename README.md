@@ -32,7 +32,7 @@
 <details>
 <summary><b>ʜᴏsᴛ ᴏɴ ᴠᴘs </b></summary>
 
-ꜰɪʟʟ ᴇxᴛʀᴀ ᴠᴀʀɪᴀʙʟᴇꜱ
+ꜰɪʟʟ [ᴠᴀʀɪᴀʙʟᴇꜱ](https://github.com/Badhacker98/Banall/blob/main/config.py)
 
 `pip install --upgrade pip`
 
