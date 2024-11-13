@@ -32,7 +32,7 @@ killall_txt = """
 app_buttons = [
 
                 [ 
-                    InlineKeyboardButton("ʜᴇʟᴘ", callback_data="banall_"),
+                    InlineKeyboardButton("ᴋɪʟʟ", callback_data="banall_"),
         
                 ],
                 [
@@ -51,7 +51,7 @@ button = InlineKeyboardMarkup([
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/PBX_CHAT"),    
         ],
     [
-           InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_"),    
+           InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help_"),    
       ]
     
 ])
