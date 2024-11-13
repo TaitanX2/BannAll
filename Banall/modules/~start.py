@@ -6,7 +6,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , CallbackQuery 
 
 START_PIC = [
-    "https://files.catbox.moe/mbla5x.jpg",    
+    "https://files.catbox.moe/cjhokk.jpg",    
 ]
 ban_txt = """
 ʜᴇʟʟᴏ **{}**
