@@ -1,2 +1,4 @@
+asyncio
 pyrogram
 tgcrypto
+unidecode
