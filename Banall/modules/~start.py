@@ -75,6 +75,14 @@ async def start(_, message):
         photo=random.choice(START_PIC),
         caption=ban_txt.format(message.from_user.mention, message.from_user.id),
         reply_markup=button
+    )
+
+@app.on_message(filters.command(["help"], prefixes=[".","/","!"]) & filters.private)
+async def start(_, message):
+    await message.reply_photo(
+        photo=random.choice(START_PIC),
+        caption=ban_txt.format(message.from_user.mention, message.from_user.id),
+        reply_markup=button
     )    
 
 @app.on_callback_query()
