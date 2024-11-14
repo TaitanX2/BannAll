@@ -60,8 +60,8 @@ button = InlineKeyboardMarkup([
       ],
     
        [
-            InlineKeyboardButton("sᴏᴜʀᴄᴇ", url=f"https://github.com/Badhacker98/Banall/fork"),
-           InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help_"),
+            InlineKeyboardButton("sᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Badhacker98/Banall/fork"),
+           InlineKeyboardButton("ʜᴇʟᴘ 📝", callback_data="help_"),
         ],
     [
            InlineKeyboardButton("⟲ ᴄʟᴏꜱᴇ ⟳", callback_data="close_data"),  
