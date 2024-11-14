@@ -45,7 +45,10 @@
 
 `git clone https://github.com/Badhacker98/Banall && cd Banall`
 
-`nano config.py`
+`vi config.py`
+Press I on the keyboard for editing config
+
+Press Ctrl+C when you're done with editing config and :wq to save the config
 
 `pip3 install -U -r requirements.txt`
 
