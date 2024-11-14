@@ -4,7 +4,7 @@ import importlib
 from pyrogram import idle
 from pyrogram import filters, Client
 
-from Banall import LOG, app
+from Banall import app, LOG, BOT_USERNAME
 from Banall.modules import ALL_MODULES
 
 
@@ -18,7 +18,7 @@ async def anony_boot():
     for all_module in ALL_MODULES:
         importlib.import_module("Banall.modules." + all_module)
 
-    LOG.info(f"@{app.username} Started.")
+    LOG.info(f"@{BOT_USERNAME} Started.")
     await idle()
 
 
