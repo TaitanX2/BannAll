@@ -2,6 +2,7 @@ import asyncio
 import importlib
 
 from pyrogram import idle
+from pyrogram import filters, Client
 
 from Banall import LOG, app
 from Banall.modules import ALL_MODULES
