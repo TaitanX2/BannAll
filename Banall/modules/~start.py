@@ -40,7 +40,7 @@ killall_txt = """
 app_buttons = [
 
                 [ 
-                    InlineKeyboardButton("ᴋɪʟʟ", callback_data="banall_"),
+                    InlineKeyboardButton("ᴋɪʟʟᴀʟʟ ߷", callback_data="banall_"),
         
                 ],
                 [
@@ -60,8 +60,8 @@ button = InlineKeyboardMarkup([
       ],
     
        [
-            InlineKeyboardButton("sᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Badhacker98/Banall/fork"),
-           InlineKeyboardButton("ʜᴇʟᴘ 📝", callback_data="help_"),
+           InlineKeyboardButton("ʜᴇʟᴘ ߷", callback_data="help_"),
+           InlineKeyboardButton("sᴏᴜʀᴄᴇ ߷", url=f"https://github.com/Badhacker98/Banall/fork"),
         ],
     [
            InlineKeyboardButton("⟲ ᴄʟᴏꜱᴇ ⟳", callback_data="close_data"),  
@@ -86,8 +86,8 @@ async def cb_handler(client, query):
       ],
     
        [
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/PBX_CHAT"),
-           InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help_"),
+           InlineKeyboardButton("ʜᴇʟᴘ ߷", callback_data="help_"),
+           InlineKeyboardButton("sᴏᴜʀᴄᴇ ߷", url=f"https://github.com/Badhacker98/Banall/fork"),
         ],
     [
            InlineKeyboardButton("⟲ ᴄʟᴏꜱᴇ ⟳", callback_data="close_data"),  
