@@ -49,8 +49,6 @@
 
 `pip3 install -U -r requirements.txt`
 
-`bash setup`
-
 `screen -R Banall`
 
 `python3 -m Banall`
