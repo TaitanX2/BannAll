@@ -46,6 +46,7 @@
 `git clone https://github.com/Badhacker98/Banall && cd Banall`
 
 `vi config.py`
+( ᴘʀᴇꜱꜱ i ᴏɴ ᴛʜᴇ ᴋᴇʏʙᴏᴀʀᴅ ꜰᴏʀ ᴇᴅɪᴛɪɴɢ ᴄᴏɴꜰɪɢ ,ᴘʀᴇꜱꜱ ᴄᴛʀʟ+ᴄ ᴡʜᴇɴ ʏᴏᴜ'ʀᴇ ᴅᴏɴᴇ ᴡɪᴛʜ ᴇᴅɪᴛɪɴɢ ᴄᴏɴꜰɪɢ ᴀɴᴅ :wq ᴛᴏ ꜱᴀᴠᴇ ᴛʜᴇ ᴄᴏɴꜰɪɢ )
 
 `pip3 install -U -r requirements.txt`
 
