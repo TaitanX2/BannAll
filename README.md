@@ -26,7 +26,7 @@
 ꜰɪʟʟ [ᴠᴀʀɪᴀʙʟᴇꜱ](https://github.com/Badhacker98/Banall/blob/main/config.py)
 
 <br>
-<p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/Badhacker98/Banall"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/TaitanX2/BannAll"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 </details>
 
 <h2 align="center">
